@@ -77,16 +77,12 @@ $(document).ready(function() {
   -----------------------------------------------*/
   $(function(){
     jQuery(document).ready(function() {
-    $('#home').backstretch([
-    //    "images/home-bg-slider-img1.jpg", 
-    //    "images/home-bg-slider-img2.jpg",
+    $('#home').backstretch([ 
        "images/home-bg-slider-img3.jpg",
-    //    "images/home-bg-slider-img4.jpg",
        "images/home-bg-slider-img5.jpg",
        "images/home-bg-slider-img6.jpg",
-       "images/home-bg-slider-img7.jpg",
-       "images/home-bg-slider-img8.jpg",
-       "images/home-bg-slider-img9.jpg",
+       "images/home-bg-slider-img10.jpg", 
+       "images/home-bg-slider-img11.jpg", 
         ],  {duration: 2500, fade: 750});
     });
   })
