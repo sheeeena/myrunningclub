@@ -348,6 +348,8 @@ a {
   transform: scale(0.9);
 }
 
+
+
 #trainer .trainer-thumb .trainer-overlay h2 {
   padding-bottom: 0px;
 }
@@ -429,7 +431,7 @@ a {
 }
 
 #blog .blog-thumb:hover {
-  background: url('../images/blog-thumb.jpg');
+  background: url('../images/blog-thumb4.jpg');
    -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -437,7 +439,10 @@ a {
 }
 
 #blog .blog-thumb:hover .blog-date, #blog .blog-thumb:hover h3 a,
-#blog .blog-thumb:hover #blog-author {color: #ffffff;}
+#blog .blog-thumb:hover  {
+  color: #ffffff;
+  background-color: rgba(122, 119, 119, 0.5);
+}
 
 #blog .col-md-6:nth-child(2) .blog-thumb,
 #blog .col-md-6:nth-child(3) .blog-thumb {
